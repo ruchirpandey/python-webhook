@@ -27,7 +27,7 @@ def webhook():
     r.headers['Content-Type'] = 'application/json'
     return r
 
-
+# ruchir
 def processRequest(req):
     if req.get("result").get("action") != "yahooWeatherForecast":
         return {}
